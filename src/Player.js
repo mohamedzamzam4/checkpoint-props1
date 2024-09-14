@@ -4,7 +4,7 @@ import Playerlist from "./Playerlist";
 const Player = (props) => {
   console.log(props);
   return (
-    <div>
+    <div className="container">
       {props.user.map((el) => (
         <Playerlist list={el} />
       ))}

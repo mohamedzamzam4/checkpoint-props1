@@ -6,8 +6,8 @@ import ListGroup from "react-bootstrap/ListGroup";
 const Playerlist = (props) => {
   return (
     <div>
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={props.list.photo} />
+      <Card style={{ width: "18rem", height: "600px" }}>
+        <Card.Img className="" variant="top" src={props.list.photo} />
         <Card.Body>
           <Card.Title>{props.list.name}</Card.Title>
           <Card.Text>

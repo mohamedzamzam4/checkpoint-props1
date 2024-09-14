@@ -38,7 +38,8 @@ p{
 .container {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  
+  flex-wrap: wrap;
 }
 .btnprimary {
   background-color: #0e2a47;

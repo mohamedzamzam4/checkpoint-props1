@@ -7,7 +7,7 @@ import Players from "./Players";
 
 function App() {
   return (
-    <div className="container">
+    <div >
       <Players />
     </div>
   );
